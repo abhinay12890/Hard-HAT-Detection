@@ -56,7 +56,7 @@ Download and install `Desktop development with C++` from this link: [Visual Stud
 </p>
 
 ## Working on Project
-## On the project DashBoard
+### On the project DashBoard
  Select Labeling Method as Bounding boxes and Target Device as Arduino Nicla Vision
 ### Data Collection
 Under the Data Acquisition tab, upload the dataset in respective sets like training and testing which already have mentioned in the directories. The images are pre-labelled by me which are stored in bounding_boxes.labels and info.labels files.
