@@ -61,14 +61,14 @@ Under the Data Acquisition tab, upload the dataset in respective sets like train
 <p align = "center">
    <img src="https://user-images.githubusercontent.com/85072523/255311474-da46e7bf-5608-49a6-a482-4724154bcd3d.png" />
 </p> 
-\
+
 You are also welcomed to upload your custom images and go to the labelling queue to label your images.
 
 ### Impulse design 
 * The following impulse design is used in this project.
 <p align = "center">
    <img src="https://user-images.githubusercontent.com/85072523/255311507-2b9a12ea-ce50-43ae-8917-fbe9d6d79957.png" />
-</p> \
+</p> 
 * After saving the impulse, click on image tab and save the image parameters, click on generate features.
 
 *Generated Features*
