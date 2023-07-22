@@ -52,14 +52,14 @@ Download and install `Desktop development with C++` from this link: [Visual Stud
 4. Then run this command on a new cmd prompt `edge-impulse-daemon` and log in to your edge impulse account. Then select the project you want Arduino Nicla Vision to connect. `edge-impulse-daemon --clean` can be run if you want to re-login to edge impulse or select a different project to connect your Nicla Vision.
 5. Open your edge impulse project in your browser, you should be able to see Arduino Nicla vision in your Devices tab.
 <p align = "center">
-   <img src="https://github.com/abhinay12890/Hard-HAT-Detection/issues/1#issue-1816607043" />
+   <img src="https://user-images.githubusercontent.com/85072523/255311397-a5fd474e-b660-4cbf-986c-5d58e0cdcbe7.png" />
 </p>
 
 ## Working on Project
 ### Data Collection
 Under the Data Acquisition tab, upload the dataset in respective sets like training and testing which already have mentioned in the directories. The images are pre-labelled by me which are stored in bounding_boxes.labels and info.labels files.
 <p align = "center">
-   <img src="https://github.com/abhinay12890/Hard-HAT-Detection/issues/1#issuecomment-1646453412" />
+   <img src="https://user-images.githubusercontent.com/85072523/255311474-da46e7bf-5608-49a6-a482-4724154bcd3d.png" />
 </p> 
 \
 You are also welcomed to upload your custom images and go to the labelling queue to label your images.
@@ -67,20 +67,20 @@ You are also welcomed to upload your custom images and go to the labelling queue
 ### Impulse design 
 * The following impulse design is used in this project.
 <p align = "center">
-   <img src="https://github.com/abhinay12890/Hard-HAT-Detection/issues/1#issuecomment-1646453512" />
+   <img src="https://user-images.githubusercontent.com/85072523/255311507-2b9a12ea-ce50-43ae-8917-fbe9d6d79957.png" />
 </p> \
 * After saving the impulse, click on image tab and save the image parameters, click on generate features.
 
 *Generated Features*
 <p align = "center">
-   <img src="https://github.com/abhinay12890/Hard-HAT-Detection/issues/1#issuecomment-1646453580" />
+   <img src="https://user-images.githubusercontent.com/85072523/255311530-ee6ef900-9bc3-46cc-9da1-ae2e900e8564.png" />
 </p>
 
 ### Model training
 
 Selecting 60 epochs, 0.01 epochs with 20% validation set size for FOMO (Faster Objects, More Objects) MobileNetV2 0.35 model and training is done. The metrics are as follows.
 <p align = "center">
-   <img src="https://github.com/abhinay12890/Hard-HAT-Detection/issues/1#issuecomment-1646453685" />
+   <img src="https://user-images.githubusercontent.com/85072523/255311547-8376f198-b106-4df8-89b1-9b98aee1b5bb.png" />
 </p>
 
 ### Deployment
@@ -101,10 +101,10 @@ Run the following command to show the classification results with the live camer
 
 <div style="display: flex;">
   <div style="flex: 1;">
-    <img src="https://github.com/abhinay12890/Hard-HAT-Detection/issues/1#issuecomment-1646453756" alt="HAT">
+    <img src="https://user-images.githubusercontent.com/85072523/255311562-eb9ff985-e256-4895-b253-baeb8de446e9.png" alt="HAT">
   </div>
   <div style="flex: 1;">
-    <img src="https://github.com/abhinay12890/Hard-HAT-Detection/issues/1#issuecomment-1646453793" alt="HEAD">
+    <img src="https://user-images.githubusercontent.com/85072523/255311572-2b40f2ca-d99d-468f-8ae9-6b0e9614f49d.png" alt="HEAD">
   </div>
 </div>
 
